@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cab,
+#tech h1, #tech h2, #tech h4,
+#games h1, #games h2, #games h4,
+#copy-social-media h1 {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cab {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ecf0f1;
+}
+
+.cab nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.cab nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tech {
+    padding-top: 40px;
+}
+
+#games .container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 40px solid rgba(128, 128, 128, 0.542);
+    border-left: 15px solid gray;
+}
+
+#tech .container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 40px solid rgba(164, 45, 255, 0.794);
+    border-left: 15px solid rgb(164, 45, 255);
+}
+
+#tech .container img,
+#games .container img {
+    margin-right: 32px;
+    height: 250px;
+}
+
+#tech .container h2,
+#games .container h2 {
+    color: rgb(195, 195, 0);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#games h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 195, 7);
+    font-size: 35px;
+    border: 15px inset rgba(255, 153, 0, 0.801);
+    padding-left: 20px;
+    margin: 15px 327.5px;
+}
+
+#tech h1 {
+    display: flex;
+    justify-content: center;
+    border: 15px inset rgba(255, 153, 0, 0.801);
+    color: rgb(0, 195, 7);
+    font-size: 35px;
+    padding-left: 20px;
+    margin: 50px 517.5px;
+    margin-top: 0;
+}
+
+#copy-social-media h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 195, 7);
+    font-size: 35px;
+    border: 15px inset rgba(255, 153, 0, 0.801);
+    margin: 15px 380px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    padding: 0px 15px;
+}
+
+.facebook-login img {
+    height: 84.48px;
+    margin-left: 554.545px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-login h3 {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px 16px;
+}
+
+.facebook-email-tel,
+.facebook-password {
+    padding: 14px 16px;
+    padding-right: 168px;
+    font-size: medium;
+    margin: auto 16px 6px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+}
+
+.facebook-email-tel:focus,
+.facebook-password:focus {
+    outline: 1px solid #ccd0d5;
+}
+
+.facebook-entrar:hover {
+    outline: none;
+    background-color: #1670e4;
+    cursor: pointer;
+}
+
+.facebook-login-area {
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-entrar {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0px 16px;
+    width: 362px;
+    margin: 6px 16px;
+    font-weight: bold;
+}
+
+.facebook-entrar-div {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook-help-account {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #1877f2;
+    padding: 15px 0px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.facebook-create-account {
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 14px;
+    margin: 18px 116.5px;
+}
+
+.facebook-create-account:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+    cursor: pointer;
+}
+
+.hr1 {
+    color: #D7DADE;
+    width: 180px;
+    margin-left: 1.1%;
+}
+
+.hr2 {
+    color: #D7DADE;
+    width: 180px;
+    margin-left: 53.9%;
+    margin-top: -2%;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-weight: normal;
+    font-size: small;
+    color: #ccd0d5;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    color: #444444;
+}
+
+.rodape {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.facebook-login-background {
+    background-color: #e9ebee;
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.instagram-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+
+.instagram-login-area {
+    background-color: #fff;
+    padding: 45px 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    width: 350px;
+    height: 400px;
+}
+
+.facebook-login img {
+    display: block;
+    margin: 0px auto;
+}
+
+.facebook-login-area-background {
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 75px;
+}
+
+.facebook-login-area-background header h3 {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.instagram-login-background {
+    background-color: rgb(250, 250, 250);
+    padding-bottom: 700px;
+    height: 800px;
+}
+
+.instagram-img {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-user, .insta-pass {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px;
+}
+
+.insta-forms form input {
+    color: black;
+}
+
+.insta-user input:focus,
+.insta-pass input:focus {
+    outline: none;
+}
+
+.insta-forms {
+    margin-top: 24px;
+}
+
+.insta-forms input {
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    color: #e9ebee;
+    font-size: 11px;
+    font-weight: normal;
+    background-color: #fafafa;
+    padding: 9px 0px 7px 8px;
+    width: 268px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid #e9ebee;
+}
+
+.instagram-entrar {
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    width: 268px;
+    height: 30px;
+    background-color: #AAC9FF;
+    font-weight: bold;
+}
+
+.instagram-botao-entrar {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.insta-left-line,
+.insta-right-line {
+    width: 105px;
+    margin: 15px 20px;
+    color: #DBDBDB;
+}
+
+.insta-or {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-p-or {
+    margin-top: 10px;
+    color: #8e8e8e;
+    font-weight: normal;
+    font-size: small;
+}
+
+.instagram-facebook-logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.entrar-com-facebook {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    color: #385185;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.instagram-facebook-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.instagram-pass-reset {
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    text-decoration: none;
+    margin-top: 12px;
+    color: #00376B;
+    font-size: 12px;
+}
+
+.insta-cadastrar {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-cadastrar-area {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 350px;
+    height: 63px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 14px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.insta-cadastrar a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.insta-cadastrar-area label,
+.insta-cadastrar-area a {
+    margin: 18px 2px;
+}
+
+.obter-app {
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 14px;
+    margin: 10px 20px;
+}
+
+.insta-download-app button {
+    border: none;
+    background-color: rgb(250, 250, 250);
+}
+
+.insta-download-app button:hover {
+    cursor: pointer;
+}
+
+.insta-download-app img {
+    height: 40px;
+    margin: 10px 2px;
+}
+
+.insta-download-app {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-rodape-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+.insta-rodape-links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #8e8e8e;
+    padding: 0px 8px;
+}
+
+.insta-language {
+    border: none;
+    color: #8e8e8e;
+}
+
+.insta-select {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin: 16px 0px;
+}
+
+.insta-copyr {
+    color: #8e8e8e;
+    margin: 2px 8px;
+}
+
+.google {
+    margin-top: 200px;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.barra-pesquisa {
+    width: 584px;
+    height: 46px;
+    border: 1px solid rgb(225 , 225, 229);
+    border-radius: 24px;
+}
+
+.barra-pesquisa-lupa {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.barra-pesquisa-teclado {
+    width: 18px;
+    height: 11px;
+    margin-left: -130px;
+    margin-bottom: -12px;
+}
+
+.barra-pesquisa-microfone {
+    margin-left: 18px;
+    margin-bottom: -20px;
+}
+
+.barra-pesquisa-camera {
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    margin-bottom: -18px;
+}
+
+.barra-pesquisa-input {
+    width: 400px;
+    height: 24px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.barra-input {
+    margin-top: -26px;
+    margin-left: 38px;
+}
+
+.pesquisa-botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa-botoes button{
+    background-color: #F8F9FA;
+    border: none;
+    color: #202124;
+    width: 140px;
+    height: 34px;
+    border-radius: 4px;
+    margin: 11px 4px;
+}
+
+.pesquisa-botoes button:hover {
+    border: 1px solid #dadce0;
+}
+
+.google-topo {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+}
+
+.google-fazer-login {
+    color: #fff;
+    background-color: #1A73E8;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 123.75px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    margin: 0px 8px;
+    margin-top: -6px;
+}
+
+.google-topo a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.google-topo button:hover,
+.barra-pesquisa-ferramentas:hover,
+.pesquisa-botoes button:hover {
+    cursor: pointer;
+}
+
+.google-topo-apps {
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 0px 10px;
+}
+
+.google-local p {
+    color: #70757A;
+    display: flex;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #dadce05f;
+    padding: 15px 0px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.rodape-esq {
+    margin-left: 8px;
+}
+
+.rodape-dir {
+    display: flex;
+    justify-content: end;
+}
+
+.rodape-dir a {
+    margin-top: -19px;
+}
+
+.rodape-esq a,
+.rodape-dir a {
+    color: #70757A;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 15px;
+}
+
+.rodape-dir a {
+    margin-top: -19px;
+}
+
+.google-rodape {
+    background-color: #dadce05f;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+.google footer {
+    margin-top: 250px;
+}
+
+.google-rodape-linha {
+    border-color: #dadce041;
+}
