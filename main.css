@@ -84,8 +84,8 @@ section p {
     color: rgb(0, 195, 7);
     font-size: 35px;
     border: 15px inset rgba(255, 153, 0, 0.801);
-    padding-left: 20px;
-    margin: 15px 327.5px;
+    padding: 0px 45px;
+    margin: 40px 0px;
 }
 
 #tech h1 {
@@ -94,9 +94,7 @@ section p {
     border: 15px inset rgba(255, 153, 0, 0.801);
     color: rgb(0, 195, 7);
     font-size: 35px;
-    padding-left: 20px;
-    margin: 50px 517.5px;
-    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 #copy-social-media h1 {
@@ -105,7 +103,8 @@ section p {
     color: rgb(0, 195, 7);
     font-size: 35px;
     border: 15px inset rgba(255, 153, 0, 0.801);
-    margin: 15px 380px;
+    padding: 0px 45px;
+    margin: 40px 0px;
 }
 
 .title {
